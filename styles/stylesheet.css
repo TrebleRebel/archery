@@ -1,0 +1,27 @@
+/*HEADER AND NAVBAR*/
+header {
+    background-color: #03a3df;
+    padding-top: 3%;
+}
+
+.logo {
+    padding-left: 5%;
+}
+
+.navbar {
+    background-color: #1b447f;
+    margin-top: 3%;
+}
+
+.navbartext {
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*MAIN BODY*/
+body{
+    padding: 0;
+    margin: 0;
+}
