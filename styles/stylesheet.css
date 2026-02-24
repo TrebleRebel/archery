@@ -75,9 +75,8 @@ p {
 
 /*FOOTER*/
 footer {
-    background-image: url(/images/footerImage.jpg);
+    background-image: url(../images/footerImage.jpg);
     background-color:#1b447f;
-    padding: 25px;
     text-align: center;
     position: relative;
     bottom: 0;
