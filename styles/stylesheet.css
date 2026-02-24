@@ -25,3 +25,67 @@ body{
     padding: 0;
     margin: 0;
 }
+
+h1 {
+    color: #444444;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    color: #444444;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    color: #444444;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17;
+}
+
+p {
+    color: #444444;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+.hryellow {
+    color: #ecb722;
+    border-style: solid;
+    border-width:2px;
+}
+
+.hrblue {
+    color: #1b447f;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    gap: 7rem;
+}
+
+.instructors {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+/*FOOTER*/
+footer {
+    background-image: url(/images/footerImage.jpg);
+    background-color:#1b447f;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.footertext {
+    color: #FFFFFF;
+    font-size: 17px;
+}
