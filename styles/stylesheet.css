@@ -1,23 +1,16 @@
 /*HEADER AND NAVBAR*/
 header {
     background-color: #03a3df;
-    padding-top: 3%;
-}
-
-.logo {
-    padding-left: 5%;
 }
 
 .navbar {
     background-color: #1b447f;
-    margin-top: 3%;
 }
 
 .navbartext {
     color: #FFFFFF;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    text-decoration: none;
 }
 
 /*MAIN BODY*/
@@ -73,6 +66,11 @@ p {
     display: flex;
     gap: 2rem;
     margin-top: 1rem;
+}
+
+.classcontainer {
+    display: flex;
+    gap: 2rem;
 }
 
 /*FOOTER*/
