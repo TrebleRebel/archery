@@ -1,10 +1,12 @@
 /*HEADER AND NAVBAR*/
 header {
     background-color: #03a3df;
+    padding-top: 20px;
 }
 
 .navbar {
     background-color: #1b447f;
+    margin-top: 20px;
 }
 
 .navbartext {
@@ -77,6 +79,7 @@ p {
 footer {
     background-image: url(../images/footerImage.jpg);
     background-color:#1b447f;
+    padding: 1.5rem;
     text-align: center;
     position: relative;
     bottom: 0;
