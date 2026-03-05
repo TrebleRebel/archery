@@ -4,9 +4,18 @@ header {
     padding-top: 20px;
 }
 
+.logo {
+    padding-left: 2rem;
+}
+
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #1b447f;
     margin-top: 20px;
+    padding-left: 2rem;
 }
 
 .navbartext {
@@ -70,9 +79,21 @@ p {
     margin-top: 1rem;
 }
 
-.classcontainer {
-    display: flex;
-    gap: 2rem;
+.flex-container-2 {
+    display: grid;
+}
+
+.flex-gap-20 {
+    gap: 40px;
+}
+
+.flex-item-1 {
+    grid-column-start: 1;
+    max-width: 40rem;
+}
+
+.flex-item-2 {
+    grid-column-start: 2;
 }
 
 /*FOOTER*/
