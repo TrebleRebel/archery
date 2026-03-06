@@ -97,6 +97,7 @@ p {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-right: 2rem;
+    justify-content: center;
 }
 
 .flex-container-2 {
