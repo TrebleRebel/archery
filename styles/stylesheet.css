@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /*HEADER AND NAVBAR*/
 header {
     background-color: #03a3df;
@@ -16,6 +20,8 @@ header {
     background-color: #1b447f;
     margin-top: 20px;
     padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .navbartext {
@@ -28,6 +34,14 @@ header {
 body{
     padding: 0;
     margin: 0;
+}
+
+main {
+    padding-left: 2rem;
+}
+
+aside {
+    padding-right: 2rem;
 }
 
 h1 {
@@ -68,15 +82,17 @@ p {
     border-style: solid;
 }
 
-.container {
-    display: flex;
-    gap: 7rem;
-}
-
 .instructors {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 1rem;
+}
+
+.main-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    gap: 2rem;
 }
 
 .flex-container-2 {
