@@ -44,6 +44,12 @@ aside {
     padding-right: 2rem;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
 h1 {
     color: #444444;
     font-family: Arial, sans-serif;
