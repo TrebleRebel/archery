@@ -82,17 +82,22 @@ p {
     border-style: solid;
 }
 
+.container {
+    margin-left: 2rem;
+}
+
 .instructors {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 1rem;
+    align-items: center;
 }
 
 .main-grid {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     justify-content: center;
-    gap: 2rem;
+    margin-right: 2rem;
 }
 
 .flex-container-2 {
