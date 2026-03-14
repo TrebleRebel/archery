@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0;
+}
+
 /*HEADER AND NAVBAR*/
 header {
     background-color: #03a3df;
